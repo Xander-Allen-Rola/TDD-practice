@@ -1,2 +1,4 @@
 hello this s a lorem ipsum habeni ich bin lorem ipsum of a txt file 
 created by none other than david romanskdjakllkdnlaeklaedjakln.
+
+testing nano command to edit files on git. Will push this on github
