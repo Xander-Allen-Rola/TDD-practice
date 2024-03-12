@@ -9,6 +9,9 @@ class TestCalculator(unittest.TestCase):
         with self.assertRaises(ZeroDivisionError):
             divide(10,0)
 
+    def test_multiply(self):
+	self.assertEqual(multiply(3, 5), 15)		
+
     def test_subtract(self):
         self.assertEqual(subtract(3,2), 1)
 
