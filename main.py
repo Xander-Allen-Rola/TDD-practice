@@ -8,10 +8,12 @@ class TestCalculator(unittest.TestCase):
     def test_divide(self):
         with self.assertRaises(ZeroDivisionError):
             divide(10,0)
-    
-    def test_subtract(self):
-        self.assertEqual(multiply(3,2), 6)
 
+    def test_subtract(self):
+        self.assertEqual(subtract(3,2), 1)
+
+    def test_power(self):
+        self.assertEqual(power(2,3),8)
 def add(x, y):
     return x + y
 
